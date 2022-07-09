@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>MainPage</title>
+        <Style>
+            *{
+                padding: 0px;
+                margin: 0px;
+                box-sizing: border-box;
+            }
+        body{
+            background-color: rgba(85, 137, 137, 0.46);
+        }
+        header{
+            width: 100%;
+            height:75px;
+            background-color: rgb(132, 123, 123);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+            padding:0px 20px;
+            margin-bottom: 40px;
+
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            margin-top: 10px;
+            padding-top: 15px;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 10px 20px;
+        }
+        nav ul li a:hover{
+            background-color: white;
+            color: black;
+            border-radius: 20px;
+        }
+            .btn{
+                width:100px;
+                padding: 7px;
+                border-radius: 7px;
+                margin-top: 20px;
+                background-color: rgba(69, 26, 91, 0.775);
+                color:aliceblue;
+                border: 0px;
+                margin-bottom: 30px;
+        
+            }
+            .btn:hover{
+                background-color: white;
+                color: black;
+            }
+            .container1{
+                width:100%;
+                height:600px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                /* margin-top: 30px; */
+            }
+            .Box1{
+                width:400px;
+                height: 500px;
+                border:1px solid black;
+                /* margin-left: 40px; */
+                background-color: darkcyan;
+
+            }
+            .container2{
+                width:100%;
+                height:600px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .Box2{
+                width:400px;
+                height: 500px;
+                border:1px solid black;
+                margin-left: 80px;
+                background-color: darkcyan;
+            }
+            h2{
+                text-align: center;
+                background-color: aliceblue;
+                width: 500px;
+                height: 50px;
+                padding-top: 10px;
+                margin-left: 500px;
+            }
+            
+
+        </Style>
+        <body>
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">Log-IN</a></li>
+                        <li> <a href="">Sign-IN </a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h2>Clone</h2>
+            <div class="container1">
+                <div class="Box1" id="box1">Box1</div>
+                <div class="Box1" id="box2">Box2</div>
+                <div class="Box1" id="box3">Box3</div>
+            </div>
+            <h2>Games</h2>
+            <div class="container2">
+                <div class="Box2" id="box4">Box4</div>
+                <div class="Box2" id="box5">Box5</div> 
+            </div>
+        </body>
+    </head>
+</html>
