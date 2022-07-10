@@ -1,100 +1,7 @@
 <html>
     <head>
         <title>MainPage</title>
-        <Style>
-            *{
-                padding: 0px;
-                margin: 0px;
-                box-sizing: border-box;
-            }
-        body{
-            background-color: rgba(85, 137, 137, 0.46);
-        }
-        header{
-            width: 100%;
-            height:75px;
-            background-color: rgb(132, 123, 123);
-            color: white;
-            display: flex;
-            justify-content: space-between;
-            text-decoration: none;
-            padding:0px 20px;
-            margin-bottom: 40px;
-
-        }
-        nav ul{
-            list-style: none;
-            display: flex;
-            margin-top: 10px;
-            padding-top: 15px;
-        }
-        nav ul li a{
-            color: white;
-            text-decoration: none;
-            text-transform: uppercase;
-            padding: 10px 20px;
-        }
-        nav ul li a:hover{
-            background-color: white;
-            color: black;
-            border-radius: 20px;
-        }
-            .btn{
-                width:100px;
-                padding: 7px;
-                border-radius: 7px;
-                margin-top: 20px;
-                background-color: rgba(69, 26, 91, 0.775);
-                color:aliceblue;
-                border: 0px;
-                margin-bottom: 30px;
-        
-            }
-            .btn:hover{
-                background-color: white;
-                color: black;
-            }
-            .container1{
-                width:100%;
-                height:600px;
-                display: flex;
-                justify-content: space-evenly;
-                align-items: center;
-                /* margin-top: 30px; */
-            }
-            .Box1{
-                width:400px;
-                height: 500px;
-                border:1px solid black;
-                /* margin-left: 40px; */
-                background-color: darkcyan;
-
-            }
-            .container2{
-                width:100%;
-                height:600px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            .Box2{
-                width:400px;
-                height: 500px;
-                border:1px solid black;
-                margin-left: 80px;
-                background-color: darkcyan;
-            }
-            h2{
-                text-align: center;
-                background-color: aliceblue;
-                width: 500px;
-                height: 50px;
-                padding-top: 10px;
-                margin-left: 500px;
-            }
-            
-
-        </Style>
+        <link rel="stylesheet" href="./style.css">
         <body>
             <header>
                 <nav>
@@ -106,6 +13,48 @@
                     </ul>
                 </nav>
             </header>
+            <div class="main-container">
+            <div class="container">
+                <div class="Navigation">
+                    <div class="next nav-btn"> > </div>
+                    <div class="prev nav-btn"> < </div>
+        
+                    <div class="carousel-contatiner">
+                        <div class="item main">
+                            <img src="./images/pexels-alice-castro-9401954.jpg" alt="">
+                            <div class="caption">image-1</div>
+                        </div>
+                        <div class="item">
+                            <img src="./images/pexels-james-wheeler-1519088.jpg" alt="">
+                            <div class="caption">image-2</div>
+                        </div>
+                        
+                        <div class="item">
+                            <img src="./images/pexels-julius-silver-753626.jpg" alt="">
+                            <div class="caption">image-3</div>
+
+                        </div>
+                        <div class="item main">
+                            <img src="./images/pexels-matin-zahid-7063450.jpg" alt="">
+                            <div class="caption">image-4</div>
+                        </div>
+                        <div class="item">
+                            <img src="./images/pexels-oliver-sjöström-1433052.jpg" alt="">
+                            <div class="caption">image-5</div>
+                        </div>
+                        
+                        <div class="item">
+                            <img src="./images/pexels-pixabay-38537.jpg" alt="">
+                            <div class="caption">image-6</div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
             <h2>Clone</h2>
             <div class="container1">
                 <div class="Box1" id="box1">Box1</div>
@@ -118,5 +67,6 @@
                 <div class="Box2" id="box5">Box5</div> 
             </div>
         </body>
+        <script src="./script.js"></script>
     </head>
 </html>

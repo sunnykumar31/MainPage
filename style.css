@@ -1,0 +1,169 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+background-color:rgba(178, 189, 189, 0.744);
+}
+header{
+width: 100%;
+height:75px;
+background-color: rgb(132, 123, 123);
+color: white;
+display: flex;
+justify-content: space-between;
+text-decoration: none;
+padding:0px 20px;
+margin-bottom: 40px;
+
+}
+nav ul{
+list-style: none;
+display: flex;
+margin-top: 10px;
+padding-top: 15px;
+}
+nav ul li a{
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+padding: 10px 20px;
+}
+nav ul li a:hover{
+background-color: white;
+color: black;
+border-radius: 20px;
+}
+.btn{
+    width:100px;
+    padding: 7px;
+    border-radius: 7px;
+    margin-top: 20px;
+    background-color: rgba(69, 26, 91, 0.775);
+    color:aliceblue;
+    border: 0px;
+    margin-bottom: 30px;
+
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.container1{
+    width:100%;
+    height:600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top: 30px; */
+}
+.Box1{
+    width:400px;
+    height: 500px;
+    border:1px solid black;
+    /* margin-left: 40px; */
+    background-color: darkcyan;
+
+}
+.container2{
+    width:100%;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Box2{
+    width:400px;
+    height: 500px;
+    border:1px solid black;
+    margin-left: 80px;
+    background-color: darkcyan;
+}
+h2{
+    text-align: center;
+    background-color: aliceblue;
+    width: 500px;
+    height: 50px;
+    padding-top: 10px;
+    margin-left: 500px;
+}
+.main-container{
+width:100%;
+height:100vh;
+/* background-color:  rgba(25, 52, 102, 0.166); */
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 40px;
+}
+.container{
+width: 1000px;
+height: 600px;
+border: 10px solid white; 
+background-color: rgb(211, 226, 254);
+position: relative;
+}
+.prev{
+
+position: absolute;
+top: 50%;
+left: 5%;
+font-size: 25px;
+font-weight: bold;
+
+}
+.next{
+position: absolute;
+top: 50%;
+right: 5%;
+font-size: 25px;
+font-weight: bold;
+}
+/* .navigation{
+display: flex;
+justify-content: center;
+align-items: center;
+} */
+.nav-btn{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: blueviolet;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+transition: 0.5%;
+z-index: 1;
+}
+.nav-btn:hover{
+background-color: white;
+color: rgb(1, 7, 12);
+
+}
+.carousel-contatiner img{
+width: 980px;
+height:580px;
+}
+.item{
+position: absolute;
+display: none;
+}
+.main{
+display: block;
+}
+.carousel-contatiner{
+position: relative;
+}
+.caption{
+position: absolute;
+bottom: 0px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(91, 87, 87);
+color: wheat;
+height: 35px;
+}
