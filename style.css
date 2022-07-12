@@ -4,37 +4,49 @@
     box-sizing: border-box;
 }
 body{
-background-color:rgba(178, 189, 189, 0.744);
+background-color:rgba(234, 133, 133, 0.541);
 }
 header{
-width: 100%;
-height:75px;
-background-color: rgb(132, 123, 123);
-color: white;
-display: flex;
-justify-content: space-between;
-text-decoration: none;
-padding:0px 20px;
-margin-bottom: 40px;
+    width: 100%;
+    height:75px;
+    background-color:rgb(203, 175, 175);
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding:0px 20px;
+    box-shadow: 5px 5px 5px rgb(230, 214, 214);
+    
+    }
+    #logo{
+        width: 150px;
+        height: 70px;
+        background-image: url("./image/free-delivery-truck-free-shipping-label-vector-illustration-47013972.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        
+    }
+    nav ul{
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+    padding-top: 15px;
+    }
+    nav ul li a{
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    }
+    nav ul li a:hover{
+    background-color: rgba(207, 193, 193, 0.266);
+    color: rgb(199, 2, 2);
+    }
 
-}
-nav ul{
-list-style: none;
-display: flex;
-margin-top: 10px;
-padding-top: 15px;
-}
-nav ul li a{
-color: white;
-text-decoration: none;
-text-transform: uppercase;
-padding: 10px 20px;
-}
-nav ul li a:hover{
-background-color: white;
-color: black;
-border-radius: 20px;
-}
 .btn{
     width:100px;
     padding: 7px;
@@ -50,44 +62,6 @@ border-radius: 20px;
     background-color: white;
     color: black;
 }
-.container1{
-    width:100%;
-    height:600px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    /* margin-top: 30px; */
-}
-.Box1{
-    width:400px;
-    height: 500px;
-    border:1px solid black;
-    /* margin-left: 40px; */
-    background-color: darkcyan;
-
-}
-.container2{
-    width:100%;
-    height:600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.Box2{
-    width:400px;
-    height: 500px;
-    border:1px solid black;
-    margin-left: 80px;
-    background-color: darkcyan;
-}
-h2{
-    text-align: center;
-    background-color: aliceblue;
-    width: 500px;
-    height: 50px;
-    padding-top: 10px;
-    margin-left: 500px;
-}
 .main-container{
 width:100%;
 height:100vh;
@@ -100,9 +74,10 @@ margin-bottom: 40px;
 .container{
 width: 1000px;
 height: 600px;
-border: 10px solid white; 
-background-color: rgb(211, 226, 254);
+/* border: 10px solid white;  */
+/* background-color: rgb(211, 226, 254); */
 position: relative;
+box-shadow: 10px 10px 10px white;
 }
 .prev{
 
@@ -120,11 +95,6 @@ right: 5%;
 font-size: 25px;
 font-weight: bold;
 }
-/* .navigation{
-display: flex;
-justify-content: center;
-align-items: center;
-} */
 .nav-btn{
 width: 40px;
 height: 40px;
@@ -143,8 +113,8 @@ color: rgb(1, 7, 12);
 
 }
 .carousel-contatiner img{
-width: 980px;
-height:580px;
+width: 1000px;
+height:600px;
 }
 .item{
 position: absolute;
@@ -163,7 +133,119 @@ width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: rgb(91, 87, 87);
-color: wheat;
+background-color: rgba(231, 227, 227, 0.388);
+color: rgb(163, 230, 236);
 height: 35px;
+}
+.service{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 200px;
+    font-size: 25px;
+    text-align: center;
+}
+p{
+    margin-top: 20px;
+    width: 1000px;
+    text-align: center;
+    margin-left: 250px;
+}
+.container1,.container2{
+    width:100%;
+    height:700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top: 30px; */
+   
+}
+
+.Box1{
+    width:420px;
+    height: 550px;
+    box-shadow: 10px 10px 10px rgb(244, 233, 233);
+    
+}
+
+footer{
+    width:100%;
+    height:50px;
+    background-color:rgb(251, 59, 59);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    padding-bottom: 10px;
+    
+}
+.image{
+    width: 420px;
+    height: 300px;
+    /* border: 1px solid black; */
+
+}
+h3{
+    margin-top: 10px;
+}
+.link{
+    color: red;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.text{
+    padding: 20px;
+    
+}
+#box1 .image{
+    background-image: url("./images/spotify-logo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box2 .image{
+    background-image: url("./images/flipkart2.webp");
+    background-size: cover;
+    background-position: -40px;
+}
+#box3 .image{
+    background-image: url("./images/zomato-logo2.jpg");
+    background-repeat: no-repeat;
+    object-position: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+#box4 .image{
+    background-image: url("./images/snakes\ games2.jpg");
+    object-position: 100%;
+    background-size: cover;
+    background-position: -4px;
+    
+    
+}
+#box5 .image{
+    background-image: url("./images/drum2.jpg");
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    object-fit: contain;
+    background-size: cover;
+}
+#box6 .image{
+    background-image: url("");
+    background-repeat: no-repeat;
+    object-position: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+.search{
+    padding: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+.line{
+    color: white;
+    width: 100px;
+    height: 2px;
+    font-size: larger;
+    text-decoration: overline 3px red;
 }
