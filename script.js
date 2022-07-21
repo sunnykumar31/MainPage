@@ -43,3 +43,7 @@ var next=document.querySelector(".next");
             }
     
             window.onload=automove;
+
+
+            // var box1=document.getElementsByClassName(".Box1");
+            // box1.onclick()
