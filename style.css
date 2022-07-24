@@ -289,13 +289,17 @@ h3{
     background-size: cover;
     background-position: 100%;
 }
-#box6 .image{
+#box6{
+    text-align: center;
+    line-height: 500px;
+}
+/* #box6 .image{
     background-image: url("./images/pexels-matin-zahid-7063450.jpg");
     background-repeat: no-repeat;
     object-position: 100%;
     object-fit: cover;
     background-size: cover;
-}
+} */
 .line{
     color: white;
     width: 100px;
